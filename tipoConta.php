@@ -18,7 +18,7 @@
             <div class="card-body p-0">
                 <div class="row">
                     <div class="col-lg-5 d-none d-lg-flex">
-                        <div class="flex-grow-1 bg-register-image" style="background-image: url(&quot;assets/img/register.jpg&quot;);"></div>
+                        <div class="flex-grow-1 bg-register-image" style="background-image: url(&quot;assets/img/araras.jpg&quot;);"></div>
                     </div>
                     <div class="col-lg-7">
                         <div class="p-5">
@@ -26,23 +26,13 @@
                                 <h4 class="text-dark mb-4">Qual o tipo de conta</h4>
                             </div>
                             <form class="user">
-                                <div class="form-group"><select class="form-control"><optgroup label="This is a group"><option value="12" selected="">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></optgroup></select></div>
-                                <div
-                                    class="form-group"><input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Endereço de email" name="email"></div>
-                        <div class="form-group row">
-                            <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="password" id="examplePasswordInput" placeholder="Senha" name="password"></div>
-                            <div class="col-sm-6"><input class="form-control form-control-user" type="password" id="exampleRepeatPasswordInput" placeholder="Repita Senha" name="password_repeat"></div>
-                            <div class="col-sm-6" style="padding-top: 10px;"><input type="checkbox"><span>&nbsp;Li e aceito os termos de uso</span></div>
-                        </div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Registrar conta</button>
-                        <hr>
-                        </form>
-                        <div class="text-center"><a class="small" href="forgot-password.html">Esqueci minha senha</a></div>
-                        <div class="text-center"><a class="small" href="login.html">Já possuo uma conta!</a></div>
+                                <div class="form-group"><select class="form-control"><optgroup label="Selecione o tipo de conta"><option value="12" selected>Colaborador</option><option value="13">Líder</option></div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
