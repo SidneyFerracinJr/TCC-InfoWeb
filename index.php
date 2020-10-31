@@ -25,13 +25,13 @@
                             <div class="text-center">
                                 <h4 class="text-dark mb-4">Seja bem vindo!</h4>
                             </div>
-                            <form class="user">
+                            <form method="POST" action="acoes/login.php">
                                 <div class="form-group"><input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Endereço de email" name="email"></div>
                                 <div class="form-group"><input class="form-control form-control-user" type="password" id="senha" placeholder="Senha" name="senha"></div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Entrar</button>
                                 <hr>
                             </form>
-                            <div class="text-center"><a class="small" href="forgot-password.html">Esqueci minha senha</a></div>
-                            <div class="text-center"><a class="small" href="login.html">Criar conta</a></div>
+                            <div class="text-center"><a class="small" href="esqueci-senha.php">Esqueci minha senha</a></div>
+                            <div class="text-center"><a class="small" href="registro.php">Criar conta</a></div>
                         </div>
                     </div>
                 </div>
