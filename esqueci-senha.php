@@ -32,7 +32,7 @@
                                 <hr>
                             </form>
                             <div class="text-center"><a class="small" href="forgot-password.html">Esqueci minha senha</a></div>
-                            <div class="text-center"><a class="small" href="login.html">Já possuo uma conta!</a></div>
+                            <div class="text-center"><a class="small" href="index.php">Já possuo uma conta!</a></div>
                         </div>
                     </div>
                 </div>
