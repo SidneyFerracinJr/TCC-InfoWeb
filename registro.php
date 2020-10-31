@@ -25,18 +25,20 @@
                             <div class="text-center">
                                 <h4 class="text-dark mb-4">Crie sua conta!</h4>
                             </div>
-                            <form class="user">
-                                <div class="form-group"><input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="Nome completo" name="first_name" /></div>
+                            <form method="POST" action="acoes/cadastra.php">
+                                <div class="form-group"><input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="Nome completo" name="nome" /></div>
+
                                 <div class="form-group"><input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Endereço de email" name="email"></div>
+
                                 <div class="form-group row">
-                                    <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="password" id="examplePasswordInput" placeholder="Senha" name="password"></div>
-                                    <div class="col-sm-6"><input class="form-control form-control-user" type="password" id="exampleRepeatPasswordInput" placeholder="Repita Senha" name="password_repeat"></div>
+                                    <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="password" id="examplePasswordInput" placeholder="Senha" name="senha"></div>
+                                    <div class="col-sm-6"><input class="form-control form-control-user" type="password" id="exampleRepeatPasswordInput" placeholder="Repita Senha" name="senha"></div>
                                     <div class="col-sm-6" style="padding-top: 10px;"><input type="checkbox"><span>&nbsp;Li e aceito os termos de uso</span></div>
                                 </div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Registrar conta</button>
                                 <hr>
                             </form>
-                            <div class="text-center"><a class="small" href="forgot-password.html">Esqueci minha senha</a></div>
-                            <div class="text-center"><a class="small" href="login.html">Já possuo uma conta!</a></div>
+                            <div class="text-center"><a class="small" href="esqueci-senha.php">Esqueci minha senha</a></div>
+                            <div class="text-center"><a class="small" href="login.php">Já possuo uma conta!</a></div>
                         </div>
                     </div>
                 </div>
