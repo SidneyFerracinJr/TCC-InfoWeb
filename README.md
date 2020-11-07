@@ -1,4 +1,0 @@
-# TCC-InfoWeb
-Desenvolvimento do TCC
-
-ESTE PROJETO É DESENVOLVIDO POR SIDNEY, MARCOS E LUIZ.

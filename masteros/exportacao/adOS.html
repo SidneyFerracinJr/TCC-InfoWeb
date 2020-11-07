@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Master OS</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-4---Table-Fixed-Header.css">
+    <link rel="stylesheet" href="assets/css/Data-Table-1.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Steps-Progressbar.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="card shadow">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <form class="bootstrap-form-with-validation">
+                            <h2 class="text-center">Adicionar Ordem de Serviço</h2>
+                            <hr>
+                            <div class="form-group"><label for="text-input">Cliente</label><input class="form-control" type="text" id="text-input" name="text-input"></div>
+                            <div class="form-group"><label for="password-input">Técnico / Responsável</label><input class="form-control" type="password" id="password-input" name="password-input"></div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <div class="form-group"><label for="email-input">Estado</label><select class="form-control"><option value="" selected="">Orçamento</option><option value="">Aberto</option><option value="">Em Andamento</option><option value="">Finalizado</option><option value="">Cancelado</option><option value="">Aguardando Peças</option></select></div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group"><label for="password-input">Data Inicial</label><input class="form-control" type="password" id="password-input" name="password-input"></div>
+                                </div>
+                                <div class="col"><label for="password-input">Data Final</label><input class="form-control" type="password" id="password-input-1" name="password-input"></div>
+                            </div>
+                            <div class="form-group"><label for="textarea-input">Descrição</label><textarea class="form-control" id="textarea-input" name="textarea-input"></textarea><label for="textarea-input">Defeito</label><textarea class="form-control" id="textarea-input-1"
+                                    name="textarea-input"></textarea><label for="textarea-input">Observações</label><textarea class="form-control" id="textarea-input-2" name="textarea-input"></textarea><label for="textarea-input">Laudo Técnico</label>
+                                <textarea
+                                    class="form-control" id="textarea-input-3" name="textarea-input"></textarea>
+                            </div>
+                            <hr>
+                            <div class="form-row">
+                                <div class="col text-center"><a class="btn btn-primary btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-tag"></i></span><span class="text-white text">Adicionar Produto</span></a>
+                                    <hr>
+                                </div>
+                                <div class="col text-center"><a class="btn btn-info btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-tools"></i></span><span class="text-white text">Adicionar Serviço</span></a>
+                                    <hr>
+                                </div>
+                                <div class="col text-center"><a class="btn btn-warning btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-upload"></i></span><span class="text-white text">Adicionar Anexo</span></a>
+                                    <hr>
+                                </div>
+                                <div class="col text-center"><a class="btn btn-danger btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-bookmark"></i></span><span class="text-white text">Adicionar Anotação</span></a>
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col text-center"><label class="text-center" for="textarea-input">Produtos</label>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><span>List Group Item 1</span></li>
+                                            <li class="list-group-item"><span>List Group Item 2</span></li>
+                                            <li class="list-group-item"><span>List Group Item 3</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col text-center"><label class="text-center" for="textarea-input">Serviços</label>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><span>List Group Item 1</span></li>
+                                            <li class="list-group-item"><span>List Group Item 2</span></li>
+                                            <li class="list-group-item"><span>List Group Item 3</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col text-center"><label class="text-center" for="textarea-input">Anexos</label>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><span>List Group Item 1</span></li>
+                                            <li class="list-group-item"><span>List Group Item 2</span></li>
+                                            <li class="list-group-item"><span>List Group Item 3</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col text-center"><label class="text-center" for="textarea-input">Anotação</label><input class="form-control form-control-lg" type="text" disabled="" style="height: 147px;"></div>
+                                </div>
+                            </div>
+                        </form>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row" style="padding: 40px;">
+                    <div class="col"><a class="btn btn-success btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-check"></i></span><span class="text-white text">Faturar</span></a></div>
+                    <div class="col"><a class="btn btn-info btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-info-circle"></i></span><span class="text-white text">Atualizar</span></a></div>
+                    <div class="col"><a class="btn btn-light btn-icon-split" role="button"><span class="text-black-50 icon"><i class="fas fa-arrow-right"></i></span><span class="text-dark text">Visualizar</span></a></div>
+                    <div class="col"><a class="btn btn-secondary btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-arrow-right"></i></span><span class="text-white text">Imprimir</span></a></div>
+                    <div class="col"><a class="btn btn-secondary btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-arrow-right"></i></span><span class="text-white text">Térmica</span></a></div>
+                    <div class="col"><a class="btn btn-warning btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-exclamation-triangle"></i></span><span class="text-white text">Email</span></a></div>
+                    <div class="col"><a class="btn btn-success btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-check"></i></span><span class="text-white text">Whatsapp</span></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>

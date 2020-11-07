@@ -1,0 +1,9 @@
+objetivos: No presente artigo nós tivemos o objetivo de através de um software para controle de ordens de serviço, aumentar a organização, o rendimento do tempo, facilitar processos e dar mais controle aos proprietários de uma empresa.
+apontamento das justificativas: Diante de todos os desafios de uma empresa prestadora de serviços, um dos mais importantes é como lidar com a
+correta execução dos serviços. Isso pode demandar atenção e muito tempo caso seja feita de maneira desorganizada ou não utilize as tecnologias
+mais adequadas. Através desse contexto pode-se chegar às principais justificativas para a realização do projeto, a implementação de um sistema que
+possa facilitar o controle de ordens de serviço de uma empresa especifica que não possui quase nenhuma facilidade para o mesmo.
+metodologia: para concluir o projeto nós realizamos um estudo de caso através de uma pesquisa aplicada com objetivo descritivo exploratório e 
+abordagem qualitativa com método hipotético dedutivo.
+direcionamento das metas: após a implantação do sistema nós pudemos visualizar que a implementação de um sistema para controle de ordens de serviços
+na empresa gerou facilidade e um melhor proveito de tempo para a empresa.
